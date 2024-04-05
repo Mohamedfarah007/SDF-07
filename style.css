@@ -1,0 +1,123 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.frame{
+  background: white;
+  border-radius: 60px;
+  width: 500px;
+  height: 1025px;
+  border-style: solid;
+  border-width: 15px;
+  overflow: hidden;
+  overflow-y: auto; /*makes the element scrollable by setting its value as “auto”*/
+  overflow-x: hidden; /*set as “hidden” to make the div vertically scrollable only.*/
+  position: relative; 
+}
+
+
+.fixed{
+  background: white;
+  width: 500px;
+  height: 200px;
+  position: sticky;
+  top: 0;
+}
+
+.username{
+  text-align: center;
+  align-items:  center;
+  font-weight: bold;
+   padding-top: 10px;
+  margin-bottom: 0px;
+ font-size: 20px;
+}
+
+.profile-stats{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-image{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid purple;
+  padding: 5px;
+  background-clip: content-box;
+  border-radius: 100%;
+  flex: none;
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+
+.profile-description{
+  padding: 10px 20px;
+}
+
+.h4{
+  flex: 1;
+  line-height: 50%
+}
+
+.button{
+  display: flex;
+  padding: 0px 0px;
+}
+
+.button li{
+  flex: 1;
+  border: none;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  text-spacing: 2px;
+  align-items: center;
+  max-width: 50%;
+}
+
+.blue{
+  background-color: skyblue; 
+  margin-right: 5px;
+}
+
+.grey{
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+.photo-grid{
+ display: flex;
+ align-content: stretch;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.photo{
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: 1px;
+  max-width: 33.3%;
+  box-sizing: border-box;
+}
+
+.stories-list{
+  display: flex;
+}
+
+
+
+
+
+/* To DO*/
+
+/* hide scroll bar */
+
+
